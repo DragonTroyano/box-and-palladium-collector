@@ -25,8 +25,8 @@ $MiniMap2 = MouseGetPos()
 
 ;surki
 
-$Endurium_color_1 = 0x57C1E3 ;jasno niebieski
-$Endurium_color_2 = 0x378AD8 ;ciemno niebieski
+$Palla_color_1 = 0x57C1E3 ;jasno niebieski
+$Palla_color_2 = 0x378AD8 ;ciemno niebieski
 
 ;Boxy
 
@@ -53,7 +53,7 @@ $Hunting = True
 While(1)
    WinActivate("DarkOrbit")
 
-   SearchForColor($Endurium_color_1, $Endurium_color_2)
+   SearchForColor($Palla_color_1, $Palla_color_2)
    SearchForColor($Box1_color_1,$Box1_color_2)
    sleep(250)
 
